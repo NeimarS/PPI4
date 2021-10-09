@@ -57,6 +57,7 @@ exports.atualizar = (req, res) => {
 
   if (req.body && req.body.nome) {
     const paramNome = req.body.nome;
+    //qty: { $ne: 20 }
     Fornecedor.findOne({ nome: paramNome }, (err, fornecedor) => {
       if (err) {
         res.status(500).send(err);
