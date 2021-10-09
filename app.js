@@ -8,6 +8,9 @@ const rotaFilme = require('./rotas/filme_rotas');
 const rotaUsuario = require('./rotas/usuario_rotas');
 const rotaFornecedor = require('./rotas/fornecedor_rotas');
 
+
+//teste
+
 app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 
