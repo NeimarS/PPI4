@@ -9,7 +9,7 @@ const rotaUsuario = require('./rotas/usuario_rotas');
 const rotaFornecedor = require('./rotas/fornecedor_rotas');
 
 
-//teste 2
+//teste 3
 
 app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
